@@ -1,6 +1,7 @@
 # Breast Cancer Detection with ROC Curve
 
 ## Overview
+<img src="overview.JPG" alt="overview" width="900"/>
 
 This project focuses on breast cancer detection using a Convolutional Neural Network (CNN). The dataset utilized is the Breast Ultrasound Images Dataset, which includes benign, malignant, and normal breast ultrasound images. The model is trained to segment and classify tumors, providing valuable information for breast cancer diagnosis.
 
@@ -52,6 +53,8 @@ history = model.fit(X_train, y_train, epochs=50, validation_data=(X_test, y_test
 The trained model is evaluated on the test set, and metrics such as sensitivity, specificity, accuracy, positive predictive value (PPV), and negative predictive value (NPV) are computed for individual images and overall.
 
 ## ROC Curve:
+<img src="ROC.JPG" alt="ROC Curve" width="400"/>
+
 
 The Receiver Operating Characteristic (ROC) curve is plotted to evaluate the model's performance. It provides a graphical representation of the trade-off between true positive rate and false positive rate at various threshold settings.
 
